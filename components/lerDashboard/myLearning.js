@@ -24,7 +24,7 @@ export default function myLearning() {
       </p>
       <div className={styles.container}>
         <div className={styles.element}>
-          <img src='/image.svg' alt='course' />
+          <img src='/public/image.svg' alt='course' />
           <Badge clr='#B42318' bg='#FEF3F2' content='Design' />
           <Badge clr='#344054' bg='#F2F4F7' content='Developement' />
           <p>Ultimate web Designer</p>
