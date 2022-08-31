@@ -1,0 +1,97 @@
+$primary-bg-clr: #F8F9FD
+$primary-clr: #404040
+$secondary-clr: #7784A6
+$border: 1px solid #CAD6E4
+
+@font-face 
+    font-family: Product sans
+    src: url('../../public/font/Product Sans Regular.ttf')
+
+.stats
+  display: flex
+  justify-content: space-between
+  margin-top: 32px
+  margin-bottom: 4px
+  .card
+    position: relative
+    background-color: white
+    font-size: 18px
+    width: 31%
+    border: $border
+    border-radius: 7px
+    padding: 13px 21px 10px
+    color: $primary-clr
+    font-family: Product sans
+    ul
+      padding: 0
+      margin: 0
+
+      li:last-of-type
+        margin-bottom: 0
+        svg
+          color: #FEC400
+      
+      li:first-of-type
+        margin-top: 12px
+        svg
+          
+          color: #285FFA
+
+      li
+        svg
+          height: 8px
+          color: #29CC97
+          margin-right: 8px
+          margin-top: 3px
+
+        display: flex
+        font-size: 12px
+        margin-bottom: 8px
+
+        span
+          margin-left: auto
+
+
+    .description
+      font-size: 14px
+      font-weight: 300
+      color: $secondary-clr
+      margin-top: 13px
+    .ficon
+      float: right
+      color: $secondary-clr
+      margin-top: 6px
+    img
+      margin-right: 5px
+    
+    .digite
+      
+      font-size: 22px
+      font-weight: bold
+      margin-top: -6px
+      float: right
+    
+    .digit
+      font-size: 24px
+      font-weight: bold
+      margin-top: 7px
+      margin-bottom: 7px
+      svg
+        margin-right: 8px
+      .tag
+        font-size: 10px
+        margin-left: 10px
+        display: inline-block
+        background-color: #ECFDF3
+        color: green
+        border-raduis: 10px
+      span
+        font-size: 14px
+        font-weight: 300
+        color: $secondary-clr
+
+
+.bgp
+  position: absolute
+  bottom: 0
+  right: 0
