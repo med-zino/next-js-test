@@ -6,6 +6,9 @@ import LatestP from '../components/lerDashboard/latestP'
 import Cards from '../components/lerDashboard/cards'
 import Mylearnings from '../components/lerDashboard/myLearning'
 import Right from '../components/lerDashboard/right'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
 
 export default function Home() {
   return (
