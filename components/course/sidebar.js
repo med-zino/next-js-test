@@ -42,8 +42,13 @@ export default function sidebar() {
       </div>
 
       <div className={styles.acc}>
-        <Accordion allowMultipleExpanded className={styles.accordion2}>
-          <AccordionItem className={styles.accordion__item2}>
+        <Accordion
+          allowMultipleExpanded
+          allowZeroExpanded
+          className={styles.accordion2}
+          preExpanded={['a']}
+        >
+          <AccordionItem uuid='a' className={styles.accordion__item2}>
             <AccordionItemHeading>
               <AccordionItemButton className={styles.accordion__button2}>
                 Getting Started
