@@ -16,7 +16,7 @@ export default function Sidebar() {
   return (
     <div className={styles.sidebar}>
       <div className={styles.logo}>
-        <img src='/Alwasaet.png' alt='logo wasait' />
+        <img src='/z-learn.svg' alt='logo wasait' />
       </div>
       <ul>
         <li className={styles.lif}>

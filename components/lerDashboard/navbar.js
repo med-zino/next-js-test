@@ -10,7 +10,7 @@ import {
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
-      <p>Welcome back , Abdelhadi</p>
+      <p>Welcome back , zino</p>
       <FontAwesomeIcon icon={faMagnifyingGlass} />
       <FontAwesomeIcon icon={faBell} />
       <FontAwesomeIcon icon={faCircleUser} />
